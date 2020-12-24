@@ -1,0 +1,32 @@
+.navbar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main-section   {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.navbar a   {
+    text-decoration: none;
+    display: block;
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+  }
